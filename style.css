@@ -1,0 +1,60 @@
+body{
+    padding: 100px;
+}
+.contain{
+    background: #ebebeb;
+    padding: 50px;
+    text-align: center;
+    
+}
+.header ,.footer{
+    background: blue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    background: green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sidebar{
+    background: gray;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main_sidebar{
+    display: flex;
+   
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .main_sidebar {
+      display: block;
+      width: 100%;
+    
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .main {
+        
+    }
+  }
